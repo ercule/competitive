@@ -1,76 +1,113 @@
-<html>
+```html
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      line-height: 1.6;
-      color: #333;
-    }
-    header {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-    img.logo {
-      max-width: 200px;
-    }
-    h1 {
-      font-size: 2em;
-      margin-bottom: 10px;
-      color: #222;
-    }
-    h2 {
-      font-size: 1.5em;
-      margin-top: 20px;
-      color: #555;
-    }
-    p {
-      margin-bottom: 15px;
-    }
-    footer {
-      text-align: center;
-      margin-top: 40px;
-      font-size: 0.9em;
-      color: #888;
-    }
-    @media (max-width: 600px) {
-      body {
-        padding: 10px;
-      }
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Strategy notes for DriveNets</title>
+<style>
+body {
+font-family: Arial, Helvetica, sans-serif;
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+line-height: 1.6;
+color: #333;
+}
+header {
+text-align: center;
+margin-bottom: 40px;
+}
+img.logo {
+max-width: 120px;
+}
+h1 {
+font-size: 2em;
+margin-bottom: 10px;
+color: #222;
+}
+h2 {
+font-size: 1.5em;
+margin-top: 20px;
+color: #555;
+}
+p {
+margin-bottom: 15px;
+}
+footer {
+text-align: center;
+margin-top: 40px;
+font-size: 0.9em;
+color: #888;
+}
+@media (max-width: 600px) {
+body {
+padding: 10px;
+}
+}
+</style>
 </head>
 <body>
 <header>
-  <img class="logo" src="https://www.ercule.co/logos/ercule/ercule-logo-red.svg" alt="ércule Logo">
+<img class="logo" src="https://www.ercule.co/logos/ercule/ercule-logo-red.svg" alt="ércule Logo">
 </header>
 
 <h1>Strategy notes for DriveNets</h1>
-<h3>06-22-2025</h3>
+<h3>07-01-2025</h3>
 
 <h2>What is DriveNets writing about?</h2>
 <ul>
-  <li>The provided homepage does not display any recent blog article titles or publication dates, so there is no visible list of recent topics DriveNets has written about or when. Without this information, a direct assessment of their latest published content is not possible.</li>
-  <li>However, DriveNets sections such as "SP Routing," "AI Networking," and "Disaggregation (DDC)" indicate that the company positions itself as knowledgeable in telecommunications and cloud networking solutions. Given that these are prominent navigation topics and the company offers resources like blogs, podcasts, and white papers, DriveNets appears to be an authority in areas related to network innovation and service provider routing.</li>
+  <li><strong>AI Networking Focus:</strong><br>
+    DriveNets' most recent blog posts cover topics such as insights from ISC 2025 on evolving AI/HPC networks, mapping AI parallelism to network requirements, deploying AI clusters, and comparing network architectures for AI clusters as of mid-2025.<br>
+    Based on the variety and depth of AI networking content posted regularly, DriveNets demonstrates authority in discussing both technical and industry-level advancements in AI-based network infrastructure.
+  </li>
+  <li><strong>Service Provider &amp; Network Infrastructure:</strong><br>
+    Recent posts also address areas like AIOps for reducing network downtime, hitless upgrades in network operations, and industry transformation panels featuring major telecom players, with content extending through 2025 events and trends.<br>
+    The participation in major industry panels and focus on service provider needs suggests DriveNets has significant expertise and influence in these topics.
+  </li>
+  <li><strong>Disaggregation and Networking Trends:</strong><br>
+    Discussions include building and maintaining disaggregated network clusters, the future of AT&amp;T’s IP transport, network convergence, and insights from leading events such as MWC25 and Cable Next-Gen.<br>
+    With ongoing analysis and practical case studies, DriveNets is positioned as an authority on disaggregated networking and emergent architecture approaches for service providers.
+  </li>
+  <li><strong>Industry Outlook and Future Predictions:</strong><br>
+    The blog features forward-looking posts on trends for 2025 and beyond, covering AI infrastructure, network innovations, and potential industry changes rooted in AI and automation.<br>
+    Frequent, detailed predictions and recaps of major industry events underscore DriveNets' ongoing engagement with and thought leadership in telecommunications and AI networking trends.
+  </li>
 </ul>
 
 <h2>What do LLMs think about DriveNets?</h2>
 <p>
-  DriveNets is an Israeli-based networking software company, founded in 2015, focused on transforming how service providers build and operate their core and edge networks. Their flagship product, DriveNets Network Cloud, is a software-based, distributed networking solution that runs on standard white-box hardware. DriveNets enables communication service providers (CSPs), like AT&amp;T, to move away from proprietary routers and use a cloud-like architecture in their backbone infrastructure.
+DriveNets is an Israeli-based networking software company, founded in 2015, focused on transforming how service providers build and operate their core and edge networks. Their flagship product, DriveNets Network Cloud, is a software-based, distributed networking solution that runs on standard white-box hardware. DriveNets enables communication service providers (CSPs), like AT&amp;T, to move away from proprietary routers and use a cloud-like architecture in their backbone infrastructure.
 </p>
 <p>
-  Unlike traditional networking vendors (such as Cisco or Juniper) that offer integrated hardware and software solutions, DriveNets’ model separates software from hardware. Their solution allows service providers to source generic hardware from various manufacturers, helping reduce costs and lock-in. The software then aggregates these hardware components into a single, scalable, and resilient virtual router cluster, managed as one system.
+Unlike traditional networking vendors (such as Cisco or Juniper) that offer integrated hardware and software solutions, DriveNets’ model separates software from hardware. Their solution allows service providers to source generic hardware from various manufacturers, helping reduce costs and lock-in. The software then aggregates these hardware components into a single, scalable, and resilient virtual router cluster, managed as one system.
 </p>
 <p>
-  A major differentiator for DriveNets is its “network cloud” approach—leveraging concepts from data centers (like cloud scalability and flexibility) in telecom networks. This architecture supports massive scalability and dynamic resource allocation, making it well-suited for demands like 5G, video streaming, and IoT expansion. It allows CSPs to start small and expand capacity easily by adding more white-box units.
+A major differentiator for DriveNets is its “network cloud” approach—leveraging concepts from data centers (like cloud scalability and flexibility) in telecom networks. This architecture supports massive scalability and dynamic resource allocation, making it well-suited for demands like 5G, video streaming, and IoT expansion. It allows CSPs to start small and expand capacity easily by adding more white-box units.
 </p>
 <p>
-  DriveNets’ main strengths include significant cost reduction (both CapEx and OpEx), hardware independence, scalability, and rapid deployment/change capabilities. Their architecture also fosters innovation and competition in the hardware supply chain. These aspects can help service providers update their networks quicker and more efficiently, keeping up with rapidly evolving traffic and service requirements.
+DriveNets’ main strengths include significant cost reduction (both CapEx and OpEx), hardware independence, scalability, and rapid deployment/change capabilities. Their architecture also fosters innovation and competition in the hardware supply chain. These aspects can help service providers update their networks quicker and more efficiently, keeping up with rapidly evolving traffic and service requirements.
 </p>
 <p>
-  However, their weaknesses include market inertia—many CSPs are risk-averse and entrenched with incumbent suppliers, making mass adoption slow. Integration of software with various white-box platforms can introduce operational complexity and troubleshooting challenges. In addition, as a relatively new company, DriveNets may need to prove its stability and support capabilities on a broader global scale compared to established giants.
+However, their weaknesses include market inertia—many CSPs are risk-averse and entrenched with incumbent suppliers, making mass adoption slow. Integration of software with various white-box platforms can introduce operational complexity and troubleshooting challenges. In addition, as a relatively new company, DriveNets may need to prove its stability and support capabilities on a broader global scale compared to established giants.
 </p>
+
+<h2>How do their ads position them?</h2>
+<p>
+<a href="https://www.linkedin.com/ad-library/search?accountOwner=DriveNets&dateOption=last-30-days" target="_blank">LinkedIn Ad Library</a><br>
+I'm unable to access external websites or browse the internet, including the LinkedIn ad library page you've linked. I can't retrieve or view the content from that URL.
+</p>
+<p>
+To get the ad copy you're looking for, you could:
+</p>
+<ol>
+  <li><strong>Copy and paste the ad content</strong> from the page directly into our conversation, and I can help format it into a bulleted list</li>
+  <li><strong>Take screenshots</strong> of the ads and share them (though I'd only be able to read visible text)</li>
+  <li><strong>Manually extract the text</strong> yourself and I can help organize or analyze it</li>
+</ol>
+<p>
+If you can share the ad copy content with me directly, I'd be happy to format it into a clean bulleted list for you!
+</p>
+<img src="https://storage.googleapis.com/agenthub-public/uid-SuVAqP5gCduG3nXkB5CJUA/TPpmi8MMtyCjLaMA7c44Cr%2FbJzkNoo7Z5R3wVBDM575AB.png" alt="DriveNets related image" style="max-width:100%;margin-top:30px;">
 </body>
 </html>
+```
